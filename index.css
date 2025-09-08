@@ -1,0 +1,53 @@
+header {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header div a {
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+        color: rgb(42, 109, 255);
+    }
+}
+
+section {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 4rem;
+}
+
+.hero-subtitle {
+    font-size: 2rem;
+}
+
+.hero-img {
+    width: 25%;
+    border-radius: 20px;
+}
+
+.send-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+}
